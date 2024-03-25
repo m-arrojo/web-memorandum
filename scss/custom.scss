@@ -1,0 +1,25 @@
+$orange: #FE7F2D;
+$primary: $orange;
+$yellow: #FCCA46;
+$green: #A1C181;
+$blue: #99B2DD;
+$indigo: #7678ED;
+$gray-900: #2E2E3A;
+$secondary: $gray-900;
+$info: $blue;
+$danger: $indigo;
+$min-contrast-ratio: 2;
+$enable-responsive-font-sizes: true;
+$gray-100: #F5F5F5;
+$gray-300: #E0E0E0;
+$gray-200: #EEEEEE;
+$gray-400: #BDBDBD;
+$gray-500: #9E9E9E;
+$gray-600: #757575;
+$gray-700: #616161;
+$gray-800: #424242;
+$border-radius: 0.5rem;
+$border-radius-lg: 0.5rem;
+$border-radius-sm: 0.5rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,45 @@
+.seccion1 {
+  padding: 0 15em;
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--secondary);
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.card a:hover {
+  color: var(--primary);
+}
+
+#map {
+  height: 100%;
+}
+
+.marker {
+  background-color: #FF0000; /* Rojo */
+  border: 3px solid red; /* Borde blanco */
+}
+
+.ubicaciones div.col-md-6 {
+  padding: 1em 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer !important;
+  transition: all 0.1s ease;
+}
+
+.ubicaciones div.col-md-6:hover {
+  color: white;
+  background-color: var(--primary);
+}
+
+.ubicaciones div.col-md-6:active {
+  background-color: var(--secondary);
+}
+
+.ubicaciones p, .ubicaciones h5 {
+  margin: 0;
+}

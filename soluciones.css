@@ -1,0 +1,11 @@
+.card {
+  margin-bottom: 1.5em;
+}
+
+.card-img-overlay {
+  background: var(--bg-secondary);
+}
+
+img {
+  border-radius: inherit;
+}

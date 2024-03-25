@@ -1,0 +1,61 @@
+.process-step {
+    margin-bottom: 40px;
+  }
+  
+  .step-number {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .step-divider {
+    width: 100%;
+    height: 3px;
+    margin: 20px auto;
+  }
+
+  .step-number.step1 {
+    color: var(--legaltech)
+  }
+
+  .step-divider.step1 {
+    border-top: 2px solid var(--legaltech);
+  }
+
+  .step-number.step2 {
+    color: var(--ciberseguridad);
+  }
+
+  .step-divider.step2 {
+    border-top: 2px solid var(--ciberseguridad);
+  }
+
+  .step-number.step3 {
+    color: var(--primary);
+  }
+
+  .step-divider.step3 {
+    border-top: 2px solid var(--primary);
+  }
+
+  .step-number.step4 {
+    color: var(--agro); 
+  }
+
+  .step-divider.step4 {
+    border-top: 2px solid var(--agro);
+  }
+
+  .step-number.step5 {
+    color: var(--ia);
+  }
+
+  .step-divider.step5 {
+    border-top: 2px solid var(--ia);
+  }
+
+  .step-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  

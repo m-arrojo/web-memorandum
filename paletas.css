@@ -1,0 +1,49 @@
+:root {
+  --primary: #fe7f2d;
+  --secondary: #2e2e3a;
+  --agro: #a1c181;
+  --ciberseguridad: #fcca46;
+  --legaltech: #99b2dd;
+  --ia: #7678ed;
+  /*variables linear backgrounds */
+  --bg-primary: linear-gradient(
+    rgba(254, 127, 45, 0.5),
+    rgba(254, 127, 45, 0.5)
+  );
+  --bg-secondary: linear-gradient(rgba(46, 46, 58, 0.5), rgba(46, 46, 58, 0.5));
+  --bg-agro: linear-gradient(
+    rgba(161, 193, 129, 0.5),
+    rgba(161, 193, 129, 0.5)
+  );
+  --bg-ciberseguridad: linear-gradient(
+    rgba(252, 202, 70, 0.5),
+    rgba(252, 202, 70, 0.5)
+  );
+  --bg-legaltech: linear-gradient(
+    rgba(153, 178, 221, 0.5),
+    rgba(153, 178, 221, 0.5)
+  );
+  --bg-ia: linear-gradient(rgba(118, 120, 237, 0.5), rgba(118, 120, 237, 0.5));
+}
+
+:root {
+  --primary: #e98c00;
+  --secondary: #6c757d;
+  --agro: #0c8a18;
+  --ciberseguridad: #007685;
+  --legaltech: #060664;
+  --ia: #480061;
+  /*variables linear backgrounds */
+  --bg-primary: linear-gradient(rgba(233, 140, 0, 0.5), rgba(233, 140, 0, 0.5));
+  --bg-secondary: linear-gradient(
+    rgba(108, 117, 125, 0.5),
+    rgba(108, 117, 125, 0.5)
+  );
+  --bg-agro: linear-gradient(rgba(12, 138, 24, 0.5), rgba(12, 138, 24, 0.5));
+  --bg-ciberseguridad: linear-gradient(
+    rgba(0, 118, 133, 0.5),
+    rgba(0, 118, 133, 0.5)
+  );
+  --bg-legaltech: linear-gradient(rgba(6, 6, 100, 0.5), rgba(6, 6, 100, 0.5));
+  --bg-ia: linear-gradient(rgba(72, 0, 97, 0.5), rgba(72, 0, 97, 0.5));
+}

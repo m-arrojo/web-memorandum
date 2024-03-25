@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/custom.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="footer2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Base | Memorándum</title>
+</head>
+
+<body>
+
+    <header class="w-100 position-fixed">
+        <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme="secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/Memorandum_logo_dark.png" alt="Memorandum Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal"
+                    aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id="navbarPrincipal">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">La compañía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trabaja con nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">+34 876 01 99 22</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-xl bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <div class="mx-auto d-flex align-items-center">
+                    <button class="navbar-toggler" id="navbarTogglerBtn" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSecundario" aria-controls="navbarSecundario" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-brand">Áreas de trabajo</a>
+                            <img src="img/flecha_abajo.svg" alt="Flecha" width="16" height="16" id="toggleArrow">
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse ml-auto" id="navbarSecundario">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SECTORES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SOFTWARE A MEDIDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">INTELIGENCIA ARTIFICIAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CIBERSEGURIDAD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LEGALTECH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">AGENCIA DIGITAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OUTSOURCING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SOLUCIONES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid p-0">
+        <!-- Banner Página -->
+        <div class="container-fluid banner-secondary d-flex justify-content-center align-items-center px-5">
+            <div class="container-fluid text-center text-white">
+                <h1 class="fw-bold mb-3">Página</h1>
+                <h4>Subtitulo</h4><br>
+                <button class="btn btn-primary btn-lg mt-2 px-5" type="button">Más información</button>
+            </div>
+        </div>
+        <!--------------------  CONTENIDO PAGINA ---------------------------->
+
+
+
+
+
+
+
+
+
+
+        <!--------------------------------------------------------------------->
+    </main>
+
+    <footer class="text-white text-center text-lg-start">
+        <!-- Formulario de contacto -->
+        <div class="container-fluid border-bottom border-light text-dark formulario">
+            <h2 class="my-4">Contacta con nosotros</h2>
+            <form>
+                <div class="row mb-3 d-flex align-items-center">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="nombre" placeholder=" " required>
+                            <label for="nombre">Nombre y apellidos</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="telefono" placeholder=" " required>
+                            <label for="telefono">Teléfono</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder=" " required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <textarea class="form-control" id="mensaje" rows="1" placeholder=" " required></textarea>
+                            <label for="mensaje">Mensaje</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-start d-flex flex-column justify-content-around">
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input border-dark" id="condiciones" required>
+                            <label class="form-check-label" for="condiciones">He leído y acepto las políticas de
+                                privacidad</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input border-secondary" id="privacidad" required>
+                            <label class="form-check-label" for="privacidad">Consiento que mis datos sean utilizados por
+                                Memorándum con fines informativos y de marketing, sabiendo que estos no serán
+                                cedidos.</label>
+                        </div>
+                    </div>
+                    <div class="col-md-2 d-flex align-items-center justify-content-around">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!--Footer menu-->
+        <div class="container-fluid pt-3 px-5 bg-secondary footer-menu pb-3 border-bottom border-light">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                    <a href="home.html">
+                        <img src="img/Memorandum_logo_dark.png" alt="Logo">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                    <ul class="list-unstyled mb-0 text-start">
+                        <li><a href="#">La compañía</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                        <li><a href="#">Clientes</a></li>
+                        <li><a href="#">Sectores</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                    <ul class="list-unstyled mb-0 text-start">
+                        <li><a href="#">Software a medida</a></li>
+                        <li><a href="#">Inteligencia artificial</a></li>
+                        <li><a href="#">Ciberseguridad</a></li>
+                        <li><a href="#">Legaltech</a></li>
+                        <li><a href="#">Agencia digital</a></li>
+                        <li><a href="#">Outsourcing</a></li>
+                        <li><a href="#">Soluciones</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <ul class="list-unstyled mb-0 text-start">
+                        <li class="d-flex align-items-center"><a href="#"><img src="img/telephone.svg" alt="telefono"
+                                    class="me-2">(+34) 876 01 99 22</a></li>
+                        <li class="d-flex align-items-center"><a href="#"><img src="img/whatsapp.svg" alt="whatsapp"
+                                    class="me-2">(+34) 876 01 99 22</a></li>
+                        <li class="d-flex align-items-center"><a href="#"><img src="img/envelope-at.svg" alt="correo"
+                                    class="me-2">memorandum@memorandum.net</a></li>
+                        <li class="d-flex align-items-center"><a href="#"><img src="img/newspaper.svg" alt="news"
+                                    class="me-2">News</a></li>
+                    </ul>
+                    <p class="mt-3 text-start">Síguenos</p>
+                    <div class="redes-sociales d-flex align-items-center gap-2">
+                        <a href="#"><img src="img/facebook.svg" alt="Facebook" class="me-2"></a>
+                        <a href="#"><img src="img/linkedin.svg" alt="LinkedIn" class="me-2"></a>
+                        <a href="#"><img src="img/twitter-x.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer legal -->
+        <div class="container-fluid p-3 footer-legal bg-secondary">
+            <div class="row align-items-center">
+                <!-- Enlaces legales -->
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <div class="d-flex flex-wrap text-start justify-content-center">
+                        <a href="#" class="me-3">Aviso legal</a>
+                        <a href="#" class="me-3">Política de privacidad</a>
+                        <a href="#" class="me-3">Política de cookies</a>
+                        <a href="#">Canal interno de información</a>
+                    </div>
+                </div>
+
+                <!-- Logos -->
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-around flex-wrap">
+                        <img src="img/logos-footer/pyme_innovadora_2025.jpg" alt="Pyme Innovadora" class="logo me-3">
+                        <img src="img/logos-footer/SELLO-RSA-PYME-2024.png" alt="RSA PYME" class="logo me-3">
+                        <img src="img/logos-footer/iso_14001.png" alt="iso_14001" class="logo me-3">
+                        <img src="img/logos-footer/iso_20000.png" alt="iso_20000" class="logo me-3">
+                        <img src="img/logos-footer/iso_27001.png" alt="iso_27001" class="logo me-3">
+                        <img src="img/logos-footer/iso_9001.png" alt="iso_9001" class="logo me-3">
+                        <img src="img/logos-footer/empresa-teruel.png" alt="empresa-teruel" class="logo me-3">
+                        <img src="img/logos-footer/carta-diversidad-25.png" alt="carta-diversidad-25" class="logo me-3">
+                        <img src="img/logos-footer/alimentos-aragon.png" alt="alimentos-aragon" class="logo me-3">
+                        <img src="img/logos-footer/sello_catalogo.png" alt="sello_catalogo" class="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
