@@ -84,9 +84,22 @@ hr.it-360 {
 
 .card-img-overlay {
   background: var(--bg-secondary);
+  border-radius: 0.5em;
+}
+
+#carruselSoluciones .card-img-overlay h4 {
+font-size: 2vw;
+}
+
+#carruselSoluciones .card-img-overlay p {
+  font-size: 1vw;
 }
 
 #carruselSoluciones .carousel-inner {
+  padding: 4em 2em;
+}
+
+#carruselSolucionesMovil .carousel-inner {
   padding: 4em 2em;
 }
 
