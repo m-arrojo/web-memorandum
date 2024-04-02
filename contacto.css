@@ -1,5 +1,5 @@
 .seccion1 {
-  padding: 0 15em;
+  width: 90%;
 }
 
 .card a {
@@ -15,11 +15,6 @@
 
 #map {
   height: 100%;
-}
-
-.marker {
-  background-color: #FF0000; /* Rojo */
-  border: 3px solid red; /* Borde blanco */
 }
 
 .ubicaciones div.col-md-6 {
