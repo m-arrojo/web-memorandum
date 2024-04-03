@@ -240,3 +240,34 @@ footer {
 .img-hover div:hover {
   transform: scale(1.1);
 }
+
+/* Imagenes overlay ------------------------------------------------*/
+
+.card-img-overlay {
+  background: var(--bg-secondary);
+  border-radius: 0.5em;
+}
+
+img {
+  border-radius: inherit;
+}
+
+.card-img-overlay h3 {
+  font-size: 1.2em;
+}
+
+.card-img-overlay h4 {
+  font-size: 1.2em;
+}
+
+.card-img-overlay p {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.div-custom-bg {
+  background-position: center;
+  min-height: 60vh;
+  color: white;
+  padding: 20px;
+}

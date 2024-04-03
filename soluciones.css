@@ -1,20 +1,3 @@
 .card {
   margin-bottom: 1.5em;
 }
-
-.card-img-overlay {
-  background: var(--bg-secondary);
-}
-
-img {
-  border-radius: inherit;
-}
-
-.card-img-overlay h4 {
-  font-size: 3vh;
-}
-
-.card-img-overlay p {
-  font-size: 2vh;
-  margin: 0;
-}
