@@ -229,3 +229,14 @@ footer {
   transform: translateY(100%);
   opacity: 0;
 }
+
+/* Hover en iconos --------------------------------------------------*/
+
+.img-hover div {
+  transform: scale(1);
+  transition: all 0.3s ease;
+}
+
+.img-hover div:hover {
+  transform: scale(1.1);
+}
