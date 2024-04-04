@@ -35,6 +35,7 @@
   background-color: var(--secondary);
 }
 
-.ubicaciones p, .ubicaciones h5 {
+.ubicaciones p,
+.ubicaciones h5 {
   margin: 0;
 }

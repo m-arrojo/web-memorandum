@@ -21,19 +21,18 @@
 
 .banner-sections .row > .col-md-4:nth-child(1) {
   background: var(--bg-primary),
-    url(img/banner-soluciones.jpg) no-repeat center center;
+    url(../img/banner-soluciones.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .banner-sections .row > .col-md-4:nth-child(2) {
   background: var(--bg-agro),
-    url(img/banner-agro.jpg) no-repeat center center;
+    url(../img/banner-agro.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .banner-sections .row > .col-md-4:nth-child(3) {
-  background: var(--bg-ia),
-    url(img/banner-ia.jpg) no-repeat center center;
+  background: var(--bg-ia), url(../img/banner-ia.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -99,7 +98,7 @@ hr.it-360 {
 .video-intro {
   min-height: 30vh;
   background: var(--bg-secondary),
-    url(img/fondo-video.jpg) no-repeat center center;
+    url(../img/fondo-video.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -113,7 +112,7 @@ hr.it-360 {
 
 /* Casos exito ----------------------------------------------------*/
 .casos-exito {
-  background: url(img/casos-exito-bg.svg) no-repeat center center;
+  background: url(../img/casos-exito-bg.svg) no-repeat center center;
   background-size: cover;
   min-height: 100vh;
 }

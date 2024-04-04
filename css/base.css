@@ -94,7 +94,7 @@ hr.quote {
 
 .banner-secondary {
   background: var(--bg-secondary),
-    url(img/slider_home_memorandum_2.jpg) no-repeat center center;
+    url(../img/slider_home_memorandum_2.jpg) no-repeat center center;
   background-size: cover;
   min-height: 50vh;
   padding-top: 6em;
@@ -102,7 +102,7 @@ hr.quote {
 
 .banner {
   background: var(--bg-secondary),
-    url(img/slider_home_memorandum_2.jpg) no-repeat center center;
+    url(../img/slider_home_memorandum_2.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
 }

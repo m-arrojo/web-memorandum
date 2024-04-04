@@ -1,13 +1,11 @@
-
-
 .card {
   height: 100%;
 }
 
 .card p {
-    margin: 0;
+  margin: 0;
 }
 
 .card-title strong {
-    color: var(--primary);
+  color: var(--primary);
 }
