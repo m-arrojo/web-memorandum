@@ -1,10 +1,16 @@
 :root {
   --primary: #fe7f2d;
+  --primary-rgb: 254, 127, 45;
   --secondary: #2e2e3a;
+  --secondary-rgb: 46, 46, 58;
   --agro: #a1c181;
+  --agro-rgb: 161, 193, 129;
   --ciberseguridad: #fcca46;
+  --ciberseguridad-rgb: 252, 202, 70;
   --legaltech: #99b2dd;
+  --legaltech-rgb: 153, 178, 221;
   --ia: #7678ed;
+  --ia-rgb: 118, 120, 237;
   /*variables linear backgrounds */
   --bg-primary: linear-gradient(
     rgba(254, 127, 45, 0.5),
@@ -73,6 +79,15 @@ h2::after {
   background-color: var(--primary);
 }
 
+h2.agro::after {background-color: var(--agro);}
+h2.ia::after {background-color: var(--ia);}
+h2.ciberseguridad::after {background-color: var(--ciberseguridad);}
+h2.legaltech::after {background-color: var(--legaltech);}
+h2.light::after {background-color: var(--bs-light);}
+h2.dark::after {background-color: var(--bs-dark);}
+h2.secondary::after {background-color: var(--bs-secondary);}
+h2.white::after {background-color: var(--bs-white);}  
+
 hr.quote {
   width: 100%;
   border: 0;
@@ -112,12 +127,20 @@ header {
   z-index: 10000;
 }
 
+header nav:nth-child(1) {
+  background-color: rgba(var(--secondary-rgb), 0.8);;
+}
+
+header nav:nth-child(2) {
+  background-color: rgba(var(--primary-rgb), 0.8);
+}
+
 header a {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 
 header a:hover {
-  color: rgba(255, 255, 255, 1) !important;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 /* Navbar ------------------------------------------------------------------- */
@@ -230,7 +253,7 @@ footer {
   opacity: 0;
 }
 
-/* Hover en iconos --------------------------------------------------*/
+/* ANIMACIONES ICONOS Y DIVS --------------------------------------------------*/
 
 .img-hover div {
   transform: scale(1);
@@ -240,6 +263,15 @@ footer {
 .img-hover div:hover {
   transform: scale(1.1);
 }
+
+.div-cta {
+  transition: all 0.3s ease;
+}
+
+.div-cta:hover {
+  background-color: var(--secondary) !important;
+}
+
 
 /* Imagenes overlay ------------------------------------------------*/
 
