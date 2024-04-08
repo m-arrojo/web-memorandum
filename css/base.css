@@ -1,36 +1,32 @@
 :root {
-  --primary: #fe7f2d;
-  --primary-rgb: 254, 127, 45;
-  --secondary: #2e2e3a;
+  --primary: #E98C00;
+  --primary-rgb: 233, 140, 0;
+  --secondary: #2E2E3A;
   --secondary-rgb: 46, 46, 58;
-  --agro: #a1c181;
-  --agro-rgb: 161, 193, 129;
-  --ciberseguridad: #fcca46;
-  --ciberseguridad-rgb: 252, 202, 70;
-  --legaltech: #99b2dd;
-  --legaltech-rgb: 153, 178, 221;
-  --ia: #7678ed;
-  --ia-rgb: 118, 120, 237;
+  --agro: #008642;
+  --agro-rgb: 0, 134, 66;
+  --ciberseguridad: #007685;
+  --ciberseguridad-rgb: 0, 118, 133;
+  --legaltech: #891329;
+  --legaltech-rgb: 137, 19, 41;
+  --ia: #8C008F;
+  --ia-rgb: 140, 0, 143;
   /*variables linear backgrounds */
-  --bg-primary: linear-gradient(
-    rgba(254, 127, 45, 0.5),
-    rgba(254, 127, 45, 0.5)
+  --bg-primary: linear-gradient(rgba(233, 140, 0, 0.5), rgba(233, 140, 0, 0.5));
+  --bg-secondary: linear-gradient(
+    rgba(46, 46, 58, 0.5),
+    rgba(46, 46, 58, 0.5)
   );
-  --bg-secondary: linear-gradient(rgba(46, 46, 58, 0.5), rgba(46, 46, 58, 0.5));
-  --bg-agro: linear-gradient(
-    rgba(161, 193, 129, 0.5),
-    rgba(161, 193, 129, 0.5)
-  );
+  --bg-agro: linear-gradient(rgba(0, 134, 66, 0.5), rgba(0, 134, 66, 0.5));
   --bg-ciberseguridad: linear-gradient(
-    rgba(252, 202, 70, 0.5),
-    rgba(252, 202, 70, 0.5)
+    rgba(0, 118, 133, 0.5),
+    rgba(0, 118, 133, 0.5)
   );
   --bg-legaltech: linear-gradient(
-    rgba(153, 178, 221, 0.5),
-    rgba(153, 178, 221, 0.5)
+    rgba(137, 19, 41, 0.5),
+    rgba(137, 19, 41, 0.5)
   );
-  --bg-ia: linear-gradient(rgba(118, 120, 237, 0.5), rgba(118, 120, 237, 0.5));
-  --bg-white: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  --bg-ia: linear-gradient(rgba(140, 0, 143, 0.5), rgba(140, 0, 143, 0.5));
 }
 
 html,
