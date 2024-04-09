@@ -12,10 +12,10 @@
   --ia: var(--bs-ia);
   --ia-rgb: var(--bs-ia-rgb);
   /*variables linear backgrounds */
-  --bg-primary: linear-gradient(rgba(var(--bs-primary-rgb), 0.5), rgba(var(--bs-primary-rgb), 0.5));
+  --bg-primary: linear-gradient(rgba(var(--bs-primary-rgb), 0.75), rgba(var(--bs-primary-rgb), 0.75));
   --bg-secondary: linear-gradient(
-    rgba(var(--bs-secondary-rgb), 0.5),
-    rgba(var(--bs-secondary-rgb), 0.5)
+    rgba(var(--bs-secondary-rgb), 0.75),
+    rgba(var(--bs-secondary-rgb), 0.75)
   );
   --bg-agro: linear-gradient(rgba(var(--bs-agro-rgb), 0.5), rgba(var(--bs-agro-rgb), 0.5));
   --bg-ciberseguridad: linear-gradient(

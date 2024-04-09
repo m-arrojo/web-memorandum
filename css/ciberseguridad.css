@@ -1,0 +1,4 @@
+.card:hover {
+  border-color: var(--primary) !important;
+  transition: all 0.5s ease-in-out;
+}
