@@ -124,11 +124,11 @@ header {
 }
 
 header nav:nth-child(1) {
-  background-color: rgba(var(--secondary-rgb), 0.8);;
+  background-color: rgba(var(--secondary-rgb), 1);;
 }
 
 header nav:nth-child(2) {
-  background-color: rgba(var(--primary-rgb), 0.8);
+  background-color: rgba(var(--primary-rgb), 1);
 }
 
 header a {
