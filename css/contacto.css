@@ -13,11 +13,15 @@
   color: var(--primary);
 }
 
+.donde-estamos{
+  background-color: #d4dadc !important;
+}
+
 #map {
   height: 100%;
 }
 
-.ubicaciones div.col-md-6 {
+.ubicaciones div.location {
   padding: 1em 4em;
   display: flex;
   flex-direction: column;
@@ -26,12 +30,8 @@
   transition: all 0.1s ease;
 }
 
-.ubicaciones div.col-md-6:hover {
+.ubicaciones div.location:hover {
   color: white;
-  background-color: var(--primary);
-}
-
-.ubicaciones div.col-md-6:active {
   background-color: var(--secondary);
 }
 

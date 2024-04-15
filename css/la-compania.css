@@ -9,3 +9,21 @@
 .card-title strong {
   color: var(--primary);
 }
+
+.circle-container {
+  margin-top: 5em;
+  width: 70vh;
+  height: 70vh; 
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.icon img {
+  max-height: 150px;
+}

@@ -12,7 +12,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- import animejs -->
+    <!-- <script src="node_modules/animejs/lib/anime.min.js"></script> -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>La compañía | Memorándum</title>
 </head>
@@ -117,43 +120,7 @@
 
             <hr class="quote" />
 
-            <!-- <div class="container-fluid p-0 my-5">
-                <p class="text-align-justify">Estamos presentes en toda la cadena de valor del
-                    <strong>software</strong>,
-                    prestando servicios profesionales tales como la <strong>Consultoría IT</strong>, el
-                    <strong>diseño</strong> y <strong>desarrollo de software</strong> personalizado, el
-                    <strong>Marketing
-                        digital</strong> y la <strong>Ciberseguridad</strong>. Además, contamos con una cartera de
-                    <strong>productos propios</strong>, los cuales dan solución a diferentes dominios tales como la
-                    <strong>gestión de centros de negocios</strong>, la <strong>empleabilidad</strong> y el
-                    <strong>sector
-                        turístico</strong>.
-                </p>
-            </div>
-
-            <div class="container border-start border-2 border-secondary">
-                <p>Nuestra excelencia técnica y capacidad de adaptación nos impulsa a acercar lo mejor de la consultoría
-                    y estrategia tecnológica a las empresas con las que trabajamos, adelantándonos al futuro y
-                    definiendo los cambios que necesitarán las empresas del mañana. Esto hace que seamos una empresa
-                    solida y actuemos de forma eficiente en un entorno cada vez más cambiante.</p>
-            </div>
-
-            <div class="container-fluid p-0 my-5">
-                <p class="text-align-justify">Nuestra compañía, en la actualidad, abastece tecnológicamente tanto a
-                    compañías del <strong>ámbito público</strong> como del <strong>privado</strong>. Somos
-                    <strong>proveedores</strong> de entidades públicas como la Biblioteca Nacional Española (BNE),
-                    RED.es,
-                    el Instituto Aragonés de Empleo (INAEM) o el Instituto Nacional de Ciberserguridad (INCIBE). Además,
-                    trabajamos para gobiernos tales como el Gobierno de Aragón, el Gobierno de Navarra, el Gobierno de
-                    Canarias y La Generalitat Valenciana, entre otros. En cuanto a nuestra trayectoria en el sector
-                    privado,
-                    trabajamos para clientes como El Corte Inglés, Banco Santander, Port Aventura, Solvia, Room Mate
-                    Hotels,
-                    Zenit Hoteles, Iberostar, etc.
-                </p>
-            </div> -->
-
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col-md-4 mb-3">
                     <div class="card border-secondary bg-secondary text-white">
                         <div class="card-body">
@@ -183,82 +150,97 @@
                 </div>
             </div>
 
-            <div class="container my-4">
-                <h2 class="mb-3">Áreas de especialidad</h2>
-                <div class="row">
-                    <div class="col-md-4 mb-3">
-                        <!-- Factoría de Software -->
-                        <div class="card card-areas bg-light">
-                            <div class="row">
-                                <div class="col-sm-3 d-flex justify-content-center align-items-center">
-                                    <img src="img/presencia-digital.png" alt="icono" width="80"
-                                        id="toggleArrow" />
-                                </div>
-                                <div class="col-sm-9">
-                                    <div class="card-body">
-                                        <h5 class="card-title fw-bold">FACTORÍA DE SOFTWARE</h5>
-                                        <p class="card-text">Desarrollo de aplicaciones informáticas ad hoc | Web |
-                                            Móvil /
-                                            App
-                                            | SmartTV | Chips industriales | I.O.T</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <!-- Visión e Inteligencia Artificial -->
-                        <div class="card card-areas bg-light">
-                            <div class="card-body">
-                                <h5 class="card-title">VISIÓN E INTELIGENCIA ARTIFICIAL</h5>
-                                <p class="card-text">Control de impurezas | Análisis de irregularidades | Control de
-                                    Calidad</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <!-- Ciberseguridad -->
-                        <div class="card card-areas bg-light">
-                            <div class="card-body">
-                                <h5 class="card-title">CIBERSEGURIDAD</h5>
-                                <p class="card-text">Auditoría | Implantación | Formación | Concienciación</p>
-                            </div>
-                        </div>
-                    </div>
+            <h2 class="mb-3">Áreas de especialidad</h2>
+
+            <div class="container d-none d-md-flex pb-5 justify-content-center align-items-center">
+                <div class="circle-container">
+                    <div class="icon" id="icon-1"><img src="img/software-chip.png"></div>
+                    <div class="icon" id="icon-2"><img src="img/ia-chip.png"></div>
+                    <div class="icon" id="icon-3"><img src="img/agencia-dig-chip.png"></div>
+                    <div class="icon" id="icon-4"><img src="img/ciberseg-chip.png"></div>
+                    <div class="icon" id="icon-5"><img src="img/outsourcing-chip.png"></div>
+                    <div class="icon" id="icon-6"><img src="img/legaltech-chip.png"></div>
+                    <div class="icon" id="icon-7"><img src="img/soluciones-chip.png"></div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 mb-3">
-                        <!-- Agencia Digital -->
-                        <div class="card card-areas bg-light">
-                            <div class="card-body">
-                                <h5 class="card-title">AGENCIA DIGITAL</h5>
-                                <p class="card-text">E-commerce | SEM | CRO | SEO | Email Marketing | Usabilidad |
-                                    Analítica Web | Social Media | Content Marketing</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <!-- Consultoría IT -->
-                        <div class="card card-areas bg-light">
-                            <div class="card-body">
-                                <h5 class="card-title">CONSULTORÍA IT</h5>
-                                <p class="card-text">Auditoría TIC | Diseño de Soluciones Digitales | Asesoramiento TIC
-                                    | Transformación 360° | Elaboración de Proyectos TIC | Jurídico IT</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <!-- Soluciones Digitales -->
-                        <div class="card card-areas bg-light">
-                            <div class="card-body">
-                                <h5 class="card-title">SOLUCIONES DIGITALES</h5>
-                                <p class="card-text">Matchtalent | Cengest | Qualitycheck | Ranktest | Soluciones de
-                                    turismo | Intranets</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+                <script type="module">
+                    document.addEventListener('DOMContentLoaded', () => {
+                        positionIcons();
+                    });
+
+                    window.addEventListener('resize', positionIcons);
+
+                    function positionIcons(excludeIcon = null) {
+                        const circleContainer = document.querySelector('.circle-container');
+                        const icons = document.querySelectorAll('.icon:not(.expanded)');
+                        const circleRadius = circleContainer.offsetHeight / 2;
+                        const containerCenterX = circleContainer.offsetWidth / 2;
+                        const containerCenterY = circleContainer.offsetHeight / 2;
+                        const numberOfIcons = icons.length;
+                        const slice = 2 * Math.PI / numberOfIcons;
+                        let angleIncrement = -90;
+
+                        icons.forEach((icon) => {
+                            const angleInRadians = (angleIncrement * Math.PI) / 180;
+                            const positionX = containerCenterX + circleRadius * Math.cos(angleInRadians) - (icon.offsetWidth / 2);
+                            const positionY = containerCenterY + circleRadius * Math.sin(angleInRadians) - (icon.offsetHeight / 2);
+
+                            icon.style.transition = 'transform 0.5s ease-out';
+                            icon.style.transform = `translate(${positionX}px, ${positionY}px)`;
+                            icon.style.zIndex = "1";
+                            angleIncrement += (360 / (excludeIcon ? numberOfIcons + 1 : numberOfIcons));
+                        });
+
+                        if (excludeIcon) {
+                            excludeIcon.style.zIndex = "1000"; // Make sure expanded icon is above others
+                            excludeIcon.style.transition = 'transform 0.5s ease-out, width 0.5s ease';
+                            excludeIcon.style.transform = `translate(${containerCenterX - (excludeIcon.offsetWidth / 0.68)}px, ${containerCenterY - (excludeIcon.offsetHeight / 2)}px)`;
+                        }
+                    }
+
+                    // Add hover effect
+                    const icons = document.querySelectorAll('.icon img');
+                    icons.forEach(icon => {
+                        icon.addEventListener('mouseenter', function () {
+                            if (!this.src.includes('-desp')) {
+                                this.src = this.src.replace('-chip', '-hover');
+                            }
+                        });
+                        icon.addEventListener('mouseleave', function () {
+                            this.src = this.src.replace('-hover', '-chip');
+                        });
+                    });
+
+                    // Add click functionality
+                    icons.forEach(icon => {
+                        icon.parentNode.addEventListener('click', function () {
+                            if (icon.classList.contains('expanded')) {
+                                icon.src = icon.src.replace('-desp', '-chip');
+                                icon.classList.remove('expanded');
+                                icon.style.width = '';
+                                positionIcons();
+                            } else {
+                                icons.forEach(otherIcon => {
+                                    otherIcon.src = otherIcon.src.replace('-desp', '-chip').replace('-hover', '-chip');
+                                    otherIcon.classList.remove('expanded');
+                                    otherIcon.style.width = '';
+                                });
+                                icon.classList.add('expanded');
+                                icon.src = icon.src.replace('-chip', '-desp').replace('-hover', '-desp');
+                                positionIcons(icon.parentNode);
+                            }
+                        });
+                    });
+                </script>
+
+
+
+
             </div>
+
+
+
+
 
             <div class="container-fluid text-center p-0 mt-5">
                 <h2 class="mb-5">Nuestra estructura organizativa</h2>
