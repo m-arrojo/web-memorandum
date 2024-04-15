@@ -11,6 +11,8 @@
   --legaltech-rgb: var(--bs-legaltech-rgb);
   --ia: var(--bs-ia);
   --ia-rgb: var(--bs-ia-rgb);
+  --light: var(--bs-light);
+  --light-rgb: var(--bs-light-rgb);
   /*variables linear backgrounds */
   --bg-primary: linear-gradient(rgba(var(--bs-primary-rgb), 0.75), rgba(var(--bs-primary-rgb), 0.75));
   --bg-secondary: linear-gradient(
