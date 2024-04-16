@@ -112,7 +112,7 @@ hr.it-360 {
 
 /* Casos exito ----------------------------------------------------*/
 .casos-exito {
-  background: url(../img/casos-exito-bg.svg) no-repeat center center;
+  background: url(../img/casos-exito-bg.png) no-repeat center center;
   background-size: cover;
   min-height: 100vh;
 }
