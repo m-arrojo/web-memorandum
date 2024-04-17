@@ -27,3 +27,16 @@
 .icon img {
   max-height: 130px;
 }
+
+/* Logos clientes ----------------------------------------------------*/
+.logos-clientes img {
+  width: 120px;
+  margin: 0 em;
+  -webkit-user-drag: none;
+  user-select: none;
+  transition: all 0.3s;
+}
+
+.logos-clientes img:hover {
+  transform: scale(1.1);
+}
