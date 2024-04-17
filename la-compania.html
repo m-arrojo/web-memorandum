@@ -267,11 +267,24 @@
 
                         if (!alreadyExpanded) {
                             icon.src = icon.src.replace('-chip', '-desp').replace('-hover', '-desp');
+                            icon.classList.add('expanded');
                             positionIcons(icon.parentNode);
                         } else {
+                            icon.classList.remove('expanded');
+                            icon.style.width = '';
                             positionIcons(); // Restablece los íconos
                         }
                     }
+
+                    circleContainer.addEventListener('mouseleave', () => {
+                        const expandedIcon = document.querySelector('.icon.expanded img');
+                        if (expandedIcon) {
+                            expandedIcon.classList.remove('expanded');
+                            expandedIcon.src = expandedIcon.src.replace('-desp', '-chip');
+                            expandedIcon.style.width = '';
+                            positionIcons(); // Restablece los íconos
+                        }
+                    });
 
 
                 </script>
