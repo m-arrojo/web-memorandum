@@ -138,12 +138,22 @@ header nav:nth-child(2) {
   border-bottom: solid 1px rgba(var(--secondary-rgb),0.25);
 }
 
-header a {
-  color: rgba(255, 255, 255, 0.9) !important;
+.navbar-dark a {
+  color: rgba(var(--bs-white-rgb), 0.9) !important;
 }
 
-header a:hover {
-  color: rgba(255, 255, 255, 0.5) !important;
+.navbar-dark a:hover {
+  color: rgba(var(--bs-white-rgb), 0.5) !important;
+}
+
+#navbarSecundario a {
+  color: rgba(var(--bs-black-rgb), 0.9) !important;
+  font-size: 14px;
+}
+
+#navbarSecundario a:hover {
+  color: rgba(var(--bs-black-rgb), 0.5) !important;
+  font-size: 14px;
 }
 
 /* Navbar ------------------------------------------------------------------- */
