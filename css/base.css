@@ -344,6 +344,7 @@ img {
 }
 
 .div-custom-bg {
+  border-radius: 0.5em;
   background-position: center;
   min-height: 60vh;
   color: white;
