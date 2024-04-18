@@ -1,7 +1,7 @@
 /* Sections -------------------------------------------------------------------- */
 
 .banner-sections .row > .col-md-4 {
-  height: 200px;
+  height: 250px;
   padding: 0 30px;
   transition: transform 0.3s ease;
 }
@@ -20,18 +20,35 @@
 }
 
 .banner-sections .row > .col-md-4:nth-child(1) {
+  background: var(--bg-secondary),
+    url(../img/banner-soluciones.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.banner-sections .row > .col-md-4:nth-child(1):hover {
   background: var(--bg-primary),
     url(../img/banner-soluciones.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .banner-sections .row > .col-md-4:nth-child(2) {
+  background: var(--bg-secondary),
+    url(../img/banner-agro.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.banner-sections .row > .col-md-4:nth-child(2):hover {
   background: var(--bg-agro),
     url(../img/banner-agro.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .banner-sections .row > .col-md-4:nth-child(3) {
+  background: var(--bg-secondary), url(../img/banner-ia.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.banner-sections .row > .col-md-4:nth-child(3):hover {
   background: var(--bg-ia), url(../img/banner-ia.jpg) no-repeat center center;
   background-size: cover;
 }
@@ -45,26 +62,22 @@
 
 .it-360 .menu div a {
   text-decoration: none;
+  font-weight: bold;
   color: var(--secondary);
 }
 
 .it-360 .menu div a:focus {
-  font-weight: bold;
   color: var(--primary);
-}
-
-.it-360 .menu div {
-  transition: all 0.3s ease;
-}
-
-.it-360 .menu div:hover {
-  transform: scale(1.05);
 }
 
 .image-container {
   max-width: 100%;
   max-height: 100%;
   overflow: hidden;
+}
+
+.it-360 .collapsing {
+  transition: none;
 }
 
 hr.it-360 {
@@ -94,6 +107,13 @@ hr.it-360 {
   width: min-content !important;
 }
 
+/* DIV kit digital */
+.kit-digital {
+  height: 333px;
+  background: url(../img/kit-digital-bg.png) center center no-repeat;
+  background-size: cover;
+}
+
 /* Banner video Youtube ----------------------------------------------------*/
 .video-intro {
   min-height: 30vh;
@@ -119,6 +139,14 @@ hr.it-360 {
 
 .casos-exito .carousel-item {
   margin-bottom: 200px;
+}
+
+#carruselCasosExito .carousel-indicators > button {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin: 0 10px;
+  background-color: var(--primary);
 }
 
 /* Logos clientes ----------------------------------------------------*/

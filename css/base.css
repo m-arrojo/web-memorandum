@@ -15,12 +15,16 @@
   --light-rgb: var(--bs-light-rgb);
   /*variables linear backgrounds */
   --bg-primary: linear-gradient(
-    rgba(var(--bs-primary-rgb), 0.75),
-    rgba(var(--bs-primary-rgb), 0.75)
+    rgba(var(--bs-primary-rgb), 0.5),
+    rgba(var(--bs-primary-rgb), 0.5)
   );
   --bg-secondary: linear-gradient(
-    rgba(var(--bs-secondary-rgb), 0.75),
-    rgba(var(--bs-secondary-rgb), 0.75)
+    rgba(var(--bs-secondary-rgb), 0.7),
+    rgba(var(--bs-secondary-rgb), 0.7)
+  );
+  --bg-light: linear-gradient(
+    rgba(var(--bs-light-rgb), 0.7),
+    rgba(var(--bs-light-rgb), 0.7)
   );
   --bg-agro: linear-gradient(
     rgba(var(--bs-agro-rgb), 0.5),
@@ -166,11 +170,11 @@ hr.quote {
 
 @keyframes animatedBackground {
   from {
-      background-position: left bottom
+    background-position: left bottom;
   }
 
   to {
-      background-position: right bottom
+    background-position: right bottom;
   }
 }
 
@@ -199,7 +203,6 @@ header nav:nth-child(2) {
 #navbarSecundario a {
   font-size: 14px;
 }
-
 
 /* Navbar ------------------------------------------------------------------- */
 
@@ -288,13 +291,13 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(var(--secondary-rgb), 0);
   border-radius: inherit;
   transition: background-color 0.3s ease;
 }
 
 .more-info:hover .card::before {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(var(--secondary-rgb), 0.1);
 }
 
 .more-info:hover .more-info-btn {
@@ -353,10 +356,23 @@ img {
   margin: 0;
 }
 
+/* CUSTOM BACKGROUNDS */
+
 .div-custom-bg {
   border-radius: 0.5em;
   background-position: center;
   min-height: 60vh;
   color: white;
   padding: 20px;
+}
+
+.bg-glass {
+  /* From https://css.glass */
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+  border: 1px solid rgba(255, 255, 255, 0.21);
 }
