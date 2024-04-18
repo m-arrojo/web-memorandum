@@ -17,7 +17,7 @@ $custom-theme-colors: (
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
-$min-contrast-ratio: 5;
+$min-contrast-ratio: 2;
 $enable-responsive-font-sizes: true;
 $border-radius: 0.5rem;
 $border-radius-lg: 0.5rem;

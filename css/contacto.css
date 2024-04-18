@@ -1,19 +1,89 @@
-.seccion1 {
-  width: 90%;
+.card-container {
+  max-width: 650px;
+  height: 350px;
+  perspective: 800px;
 }
 
-.card a {
+.card-container:hover > .flip-card {
+  cursor: pointer;
+  transform: rotateX(180deg);
+}
+
+.flip-card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 1200ms;
+  transform-style: preserve-3d;
+}
+
+.card-front,
+.card-back {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(var(--bs-secondary-rgb), 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.flip-card.tel .card-front {
+  background: url(../img/telefono-contacto.png) left top;
+  background-size: cover;
+}
+
+.flip-card.mail .card-front {
+  background: url(../img/correo-contacto.png) right top;
+  background-size: cover;
+}
+
+.flip-card.tel .card-back {
+  background: url(../img/telefono-contacto-back.png) left top;
+  background-size: cover;
+}
+
+.flip-card.mail .card-back {
+  background: url(../img/correo-contacto-back.png) right top;
+  background-size: cover;
+}
+
+.card-back {
+  transform: rotateX(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.card-back .list-group-item {
+  background: none !important;
+  border: none !important;
+}
+
+.card-back .body {
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.45);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.2px);
+-webkit-backdrop-filter: blur(3.2px);
+border: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.flip-card a {
   text-decoration: none;
   color: var(--secondary);
   transition: all 0.3s ease;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.card a:hover {
-  color: var(--primary);
+.flip-card a:hover {
+  color: var(--light);
 }
 
-.donde-estamos{
+.donde-estamos {
   background-color: #d4dadc !important;
 }
 
