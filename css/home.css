@@ -109,9 +109,17 @@ hr.it-360 {
 
 /* DIV kit digital */
 .kit-digital {
-  height: 333px;
+  height: 660px;
   background: url(../img/kit-digital-bg.png) center center no-repeat;
-  background-size: cover;
+  background-size: contain;
+}
+
+@media (max-width: 768px) {
+  .kit-digital {
+    min-height: 550px;
+    background: url(../img/kit-digital-bg-mobile.png) center center no-repeat;
+    background-size: contain;
+  }
 }
 
 /* Banner video Youtube ----------------------------------------------------*/
