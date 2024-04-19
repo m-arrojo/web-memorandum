@@ -157,8 +157,6 @@ hr.quote {
   background: var(--bg-secondary),
     url(../img/slider_home_memorandum_2.jpg) no-repeat center center;
   background-size: cover;
-  animation: animatedBackground 10s linear infinite alternate;
-  background-size: 105% !important;
   min-height: 50vh;
   padding-top: 6em;
 }
@@ -167,7 +165,6 @@ hr.quote {
   background: var(--bg-secondary),
     url(../img/slider_home_memorandum_2.jpg) no-repeat center center;
   background-size: cover;
-  animation: animatedBackground 30s linear infinite alternate;
   height: 100vh;
 }
 
