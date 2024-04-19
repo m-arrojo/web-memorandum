@@ -109,7 +109,7 @@ hr.it-360 {
 
 /* DIV kit digital */
 .kit-digital {
-  height: 660px;
+  min-height: 350px;
   background: url(../img/kit-digital-bg.png) center center no-repeat;
   background-size: contain;
 }
