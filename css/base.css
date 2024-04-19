@@ -153,6 +153,16 @@ hr.quote {
   border-radius: 0.5em;
 }
 
+iframe {
+  border-radius: 0.5em;
+  border: solid 2px var(--secondary);
+  transition: border 0.2s ease-in-out;
+}
+
+iframe:hover {
+  border: solid 10px var(--secondary);
+}
+
 .banner-secondary {
   background: var(--bg-secondary),
     url(../img/slider_home_memorandum_2.jpg) no-repeat center center;
