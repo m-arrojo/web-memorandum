@@ -385,7 +385,7 @@
                     <div class="col-md-5 mb-3 d-flex justify-content-center align-items-center">
                         <img src="img/memorandum_kit_digital.jpg" class="img-fluid">
                     </div>
-                    <div class="col-md-7 mb-3 d-flex flex-column justify-content-center align-items-center">
+                    <div class="col-md-7 mb-3 d-flex flex-column justify-content-center align-items-start gap-3">
                         <h3>¿Qué servicios puede ofrecerte Memorándum?</h3>
                         <p>Memorándum Multimedia puede <strong>ayudarte a beneficiarte de los bonos</strong> de
                             Kit Digital desarrollando soluciones personalizadas en todas estas áreas:</p>
@@ -423,6 +423,13 @@
             <img src="img/separador-secondary-blanco.png">
         </div>
 
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
+
+
+
 
 
 
@@ -432,6 +439,51 @@
 
         <!--------------------------------------------------------------------->
     </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">¿Qué incluye el Kit Tu Web?</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-7 d-flex flex-column justify-content-center">
+                            <ul class="list-inline">
+                                <li><strong>Dominio</strong>: alta de nuevo dominio para la pyme beneficiaria durante
+                                    un plazo mínimo de doce meses. La titularidad del dominio será en su totalidad de la
+                                    pyme.</li>
+                                <li><strong>Hosting</strong>: alojamiento de la página web desarrollada durante un plazo
+                                    mínimo de doce meses</li>
+                                <li><strong>Diseño de la página web</strong>: estructura web con un mínimo de 3 páginas
+                                    o apartados.</li>
+                                <li><strong>Web adaptable</strong></li>
+                                <li><strong>Accesibilidad</strong>: el diseño cumple con criterios de conformidad de
+                                    nivel AA de las Pautas WCAG-2.1.</li>
+                                <li><strong>Autogestionable</strong></li>
+                                <li><strong>Posicionamiento básico en internet</strong>: Posicionamiento de la
+                                    información básica del negocio, contacto y perfil de la empresa en los principales
+                                    sites, redes de negocio o directorios de empresas y profesionales.</li>
+                                <li><strong>Optimización de la presencia
+                                    en buscadores</strong> (SEO básico): Análisis de palabras clave, SEO
+                                    On-Page de 2 páginas o apartados, indexación y jerarquización del contenido.</li>
+                            </ul>
+
+                        </div>
+                        <div class="col-lg-5 d-flex align-items-center">
+                            <img class="img-fluid border border-light" src="img/kit-tu-web-interior.jpg">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a href="contacto.html" type="button" class="btn btn-primary">Consúltanos</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="text-white text-center text-lg-start border-top border-gris mt-5">
         <!-- Formulario de contacto -->
@@ -472,7 +524,7 @@
                         </div>
                     </div>
                     <div class="col-md-2 d-flex align-items-center justify-content-around">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
                     </div>
                 </div>
             </form>
