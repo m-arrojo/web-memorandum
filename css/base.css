@@ -363,6 +363,10 @@ img {
   border-radius: inherit;
 }
 
+.fit-cover {
+  object-fit: cover !important;
+}
+
 .card-img-overlay h3 {
   font-size: 1.2rem;
   font-weight: bold;
@@ -416,7 +420,7 @@ img {
 }
 
 .modal-content {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.8);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);

@@ -1,3 +1,9 @@
+.kit-container {
+  min-height: 25em;
+  display: flex;
+  flex-direction: row;
+}
+
 .card-kit {
   position: absolute;
   cursor: pointer;
@@ -21,17 +27,30 @@
   background: rgba(var(--secondary-rgb), 0.4);
 }
 
-.card-kit:hover .kit-titulo {
-    padding: 2em 2em;
-}
-
 .kit-titulo {
   border-radius: var(--bs-card-inner-border-radius)
     var(--bs-card-inner-border-radius) 0 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-kit:hover .kit-titulo {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .kit-modal {
   opacity: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-kit:hover .kit-modal {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  opacity: 1;
 }
 
 .kit-precio {
@@ -42,6 +61,14 @@
 .kit-descripcion {
   border-radius: 0 0 var(--bs-card-inner-border-radius)
     var(--bs-card-inner-border-radius);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-kit:hover .kit-descripcion {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .modal-footer {
