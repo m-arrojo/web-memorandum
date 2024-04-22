@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/custom.css" />
-    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/kit-digital.css" />
     <link rel="stylesheet" href="css/base.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
@@ -22,7 +22,7 @@
         <nav class="navbar navbar-dark navbar-expand-lg p-0" data-bs-theme="secondary">
             <div class="container-fluid py-1">
                 <a class="navbar-brand" href="home.html">
-                    <img src="./img/logo-dark.png" width="150" alt="Memorandum Logo" />
+                    <img src="./img/logo_blanco.png" width="150" alt="Memorandum Logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal"
                     aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Toggle navigation">
@@ -417,35 +417,79 @@
                         <h5>Además del Bono Digital desarrollamos soluciones personalizadas para completar las
                             necesidades de tu empresa.</h5>
                     </div>
-
                 </div>
             </div>
             <img src="img/separador-secondary-blanco.png">
         </div>
 
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Launch demo modal
-        </button>
+        <div class="container">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/kit-tu-web-interior.jpg" class="card-img" alt="Kit Tu Web">
+                        <div type="button" class="card-kit" data-bs-toggle="modal"
+                        data-bs-target="#kit-tu-web-modal">
+                            <div class="container-fluid p-0">
+                                <div class="container-fluid kit-titulo bg-primary py-3">
+                                    <h4 class="card-title m-0">Kit Tu Web</h4>
+                                </div>
+                                <div class="container-fluid kit-modal bg-secondary py-2">
+                                    <p class="card-title m-0">¿QUÉ INCLUYE?</p>
+                                </div>
+                            </div>
 
+                            <div class="container-fluid p-0">
+                                <div class="container-fluid kit-precio py-1">
+                                    <p class="card-title badge text-bg-light m-0">Desde 2.000€</p>
+                                </div>
+                                <div class="container-fluid kit-descripcion bg-secondary py-2">
+                                    <p class="card-text"><small>SITIO WEB Y PRESENCIA</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/kit_ecommerce_interior.jpg" class="card-img" alt="Kit E-Commerce">
+                        <div class="card-kit">
+                            <div class="container-fluid bg-primary">
+                                <h4 class="card-title py-3 m-0">Kit E-Commerce</h4>
+                            </div>
+                            <p class="card-text">Desde 2.000€</p>
+                            <p class="card-text"><small>COMERCIO ELECTRÓNICO</small></p>
+                            <a href="#" class="btn btn-primary">¿QUÉ INCLUYE?</a>
+                        </div>
+                    </div>
+                </div>
 
-
-
-
-
-
-
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/kit_rrss_interior.jpg" class="card-img" alt="Kit Redes Sociales">
+                        <div class="card-kit">
+                            <h5 class="card-title">Kit Redes Sociales</h5>
+                            <p class="card-text">Desde 2.000€</p>
+                            <p class="card-text"><small>GESTIÓN DE REDES SOCIALES</small></p>
+                            <a href="#" class="btn btn-primary">¿QUÉ INCLUYE?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!--------------------------------------------------------------------->
     </main>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="kit-tu-web-modal" tabindex="-1" aria-labelledby="kit-tu-web-label" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">¿Qué incluye el Kit Tu Web?</h3>
+                    <h3 class="modal-title" id="kit-tu-web-label">¿Qué incluye el <b>Kit Tu Web?</b></h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -467,7 +511,7 @@
                                     información básica del negocio, contacto y perfil de la empresa en los principales
                                     sites, redes de negocio o directorios de empresas y profesionales.</li>
                                 <li><strong>Optimización de la presencia
-                                    en buscadores</strong> (SEO básico): Análisis de palabras clave, SEO
+                                        en buscadores</strong> (SEO básico): Análisis de palabras clave, SEO
                                     On-Page de 2 páginas o apartados, indexación y jerarquización del contenido.</li>
                             </ul>
 
@@ -476,7 +520,6 @@
                             <img class="img-fluid border border-light" src="img/kit-tu-web-interior.jpg">
                         </div>
                     </div>
-
                 </div>
                 <div class="modal-footer">
                     <a href="contacto.html" type="button" class="btn btn-primary">Consúltanos</a>
@@ -535,7 +578,7 @@
             <div class="row d-flex align-items-center">
                 <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
                     <a href="home.html">
-                        <img src="img/logo-dark.png" width="250" alt="Logo" />
+                        <img src="img/logo_blanco.png" width="250" alt="Logo" />
                     </a>
                 </div>
 

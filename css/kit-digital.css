@@ -1,0 +1,49 @@
+.card-kit {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background: rgba(var(--secondary-rgb), 0.2);
+  color: var(--bs-blanco);
+  border-radius: var(--bs-card-inner-border-radius);
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-kit:hover {
+  background: rgba(var(--secondary-rgb), 0.4);
+}
+
+.card-kit:hover .kit-titulo {
+    padding: 2em 2em;
+}
+
+.kit-titulo {
+  border-radius: var(--bs-card-inner-border-radius)
+    var(--bs-card-inner-border-radius) 0 0;
+}
+
+.kit-modal {
+  opacity: 0;
+}
+
+.kit-precio {
+  display: flex;
+  justify-content: end;
+}
+
+.kit-descripcion {
+  border-radius: 0 0 var(--bs-card-inner-border-radius)
+    var(--bs-card-inner-border-radius);
+}
+
+.modal-footer {
+  justify-content: flex-start;
+}
