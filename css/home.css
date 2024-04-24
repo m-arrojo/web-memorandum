@@ -6,18 +6,20 @@
   transition: transform 0.3s ease;
 }
 
+.banner-sections .row > .col-md-4 h5,
 .banner-sections .row > .col-md-4 p {
   text-align: center;
   color: white !important;
-  margin-bottom: 0;
+  margin: 0;
   font-size: 16px;
   font-weight: 600;
 }
 
-.banner-sections .row > a:hover {
+.banner-sections .row > .col-md-4:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
+
 
 .banner-sections .row > .col-md-4:nth-child(1) {
   background: var(--bg-secondary),

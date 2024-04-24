@@ -1,18 +1,18 @@
-$primary: #FA8C02;
-$secondary: #2E2E3A;
+$primary: #fa8c02;
+$secondary: #2e2e3a;
 $light: #e9ecef;
 
 @import "../node_modules/bootstrap/scss/_functions";
 @import "../node_modules/bootstrap/scss/_variables";
 
 $custom-theme-colors: (
-    "agro": #216425,
-    "ciberseguridad": #007685,
-    "legaltech": #AB1833,
-    "ia": #7139C4,
-    "blanco": #FFFFFF,
-    "negro": #000000,
-    "gris": #C2C2C2,
+  "agro": #216425,
+  "ciberseguridad": #007685,
+  "legaltech": #ab1833,
+  "ia": #004aad,
+  "blanco": #ffffff,
+  "negro": #000000,
+  "gris": #c2c2c2,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
@@ -23,6 +23,6 @@ $border-radius: 0.5rem;
 $border-radius-lg: 0.5rem;
 $border-radius-sm: 0.5rem;
 
-$modal-backdrop-opacity:            0;
+$modal-backdrop-opacity: 0;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
