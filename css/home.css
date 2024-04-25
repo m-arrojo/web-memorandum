@@ -78,10 +78,6 @@
   overflow: hidden;
 }
 
-.collapsing {
-  transition: none !important;
-}
-
 hr.it-360 {
   width: 100%;
   border: 0;
