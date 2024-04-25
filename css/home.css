@@ -78,8 +78,8 @@
   overflow: hidden;
 }
 
-.it-360 .collapsing {
-  transition: none;
+.collapsing {
+  transition: none !important;
 }
 
 hr.it-360 {
