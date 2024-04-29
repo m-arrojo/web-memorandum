@@ -66,10 +66,17 @@
   text-decoration: none;
   font-weight: bold;
   color: var(--secondary);
+  transition: all 0.3s ease;
 }
 
 .it-360 .menu div a:focus {
   color: var(--primary);
+  border-color: var(--primary);
+}
+
+.it-360 .menu div a:hover {
+  color: var(--primary);
+  scale: 1.05;
 }
 
 .image-container {

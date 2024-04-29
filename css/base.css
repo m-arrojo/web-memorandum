@@ -165,27 +165,48 @@ iframe:hover {
 }
 
 .banner-secondary {
-  background: var(--bg-secondary),
-    url(../img/slider_home_memorandum_2.jpg) no-repeat center center;
   background-size: cover;
+  overflow: hidden;
+  position: relative;
   min-height: 50vh;
   padding-top: 6em;
 }
 
 .banner {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.animated-bg {
   background: var(--bg-secondary),
     url(../img/slider_home_memorandum_2.jpg) no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  animation: breath 30s infinite;
+  -moz-animation: breath 30s infinite;
+  -webkit-animation: breath 30s infinite;
+  -ms-animation: breath 30s infinite;
 }
 
-@keyframes animatedBackground {
-  from {
-    background-position: left bottom;
+@keyframes breath {
+  0% {
+    transform: scale(1);
   }
-
-  to {
-    background-position: right bottom;
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
