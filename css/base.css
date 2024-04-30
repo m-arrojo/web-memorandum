@@ -431,3 +431,11 @@ img {
 .modal ::-webkit-scrollbar-track:active {
   background-color: transparent;
 }
+
+/* ---------------- Lista kit-digital -------------------- */
+
+#kit-list li:hover{
+color: var(--primary);
+cursor: pointer;
+transition: all 0.2s ease;
+}

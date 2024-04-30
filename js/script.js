@@ -27,3 +27,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const togglers = document.querySelectorAll('.toggler');
+  togglers.forEach(toggler => {
+      toggler.addEventListener('click', function() {
+          const overlay = this.nextElementSibling;
+          overlay.style.display = overlay.style.display === 'flex' ? 'none' : 'flex';
+      });
+  });
+});

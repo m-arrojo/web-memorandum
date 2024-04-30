@@ -186,6 +186,7 @@ iframe:hover {
     url(../img/slider_home_memorandum_2.jpg) no-repeat center center;
   background-size: cover;
   display: flex;
+  top: 0;
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -238,95 +239,83 @@ header nav:nth-child(2) {
   font-size: 14px;
 } */
 
-body {
-    background: #192226 !important;
+header {
+  position: relative;
+  padding-top: 50px; /* Espacio para preheader */
+}
+
+#navbar-logo {
+  width: 150px;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  z-index: 10;
+}
+
+#navbar-logo img {
+  width: 100%;
+}
+
+.toggler {
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.overlay {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+
+.preheader, .navbar {
+  width: 100%;
+  background-color: var(--primary);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.preheader {
+  background-color: var(--secondary);
+}
+
+.preheader a, .menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.preheader a:hover, .menu a:hover {
+  background-color: white;
+  color: var(--primary);
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .toggler {
+      display: block;
   }
-  
-  .navbar-inverse {
-    background: #222B31 !important;
-    border-bottom: 4px solid #EE445F !important;
+  .overlay {
+      display: none;
   }
-  
-  .navbar-brand {
-    font: 12px Lato !important;
-    text-transform: uppercase;
-    color: #FFF !important;
-    letter-spacing: 2px;
-    margin-top: 2px;
-  }
-  
-  .nav {
-    margin-bottom: 0px;
-  }
-  .nav a {
-    letter-spacing: 2px;
-    padding: 16px !important;
-    color: #a3bfc6 !important;
-    text-transform: uppercase;
-    position: relative;
-    z-index: 1000;
-  }
-  .nav a:hover {
-    color: #FFF !important;
-  }
-  .nav li {
-    position: relative;
-  }
-  
-  .navbar-inverse .navbar-toggle {
-    border: none;
-  }
-  
-  .navbar-collapse {
-    box-shadow: none !important;
-    border: none !important;
-  }
-  
-  .navbar-inverse .navbar-toggle:hover {
-    background: transparent !important;
-  }
-  
-  .navbar-inverse .navbar-toggle:focus {
-    background: transparent !important;
-  }
-  
-  .navbar-inverse .navbar-toggle:active {
-    background: transparent !important;
-  }
-  
-  .icon-bar {
-    background: #a3bfc6 !important;
-  }
-  
-  .hover {
-    display: block;
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background: #EE445F !important;
-    z-index: 0;
-    opacity: 0;
-  }
-  
-  @media (max-width: 767px) {
-    .nav {
-      padding-bottom: 20px;
-    }
-    .nav a {
-      padding: 12px !important;
-    }
-  }
-  @media (max-width: 480px) {
-    .nav {
-      padding-bottom: 20px;
-    }
-  }
+}
 
 /* Navbar ------------------------------------------------------------------- */
 
-.navbar-toggler {
+/* .navbar-toggler {
   border: none;
   outline: none;
 }
@@ -341,7 +330,7 @@ body {
 .rotate-animation {
   transform: rotate(180deg);
   transition: transform 0.5s ease;
-}
+} */
 
 /* Formulario contacto ----------------------------------------------------*/
 
