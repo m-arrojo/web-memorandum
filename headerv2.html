@@ -93,36 +93,42 @@
     <!-- </header> -->
 
     <header>
-        <!-- Preheader con overlay -->
-        <div class="preheader">
-            <button class="toggler preheader-toggler">☰</button>
-            <div class="overlay preheader-menu" style="display: none;">
-                <a href="home.html">La compañía</a>
-                <a href="trabaja-con-nosotros.html">Trabaja con nosotros</a>
-                <a href="clientes.html">Clientes</a>
-                <a href="news.html">News</a>
-                <a href="contacto.html" class="highlight">CONTACTO</a>
+        <div class="container-fluid p-0 d-flex justify-content-between text-center">
+            <div class="bg-secondary px-3 d-flex align-items-center">
+                <div id="navbar-logo">
+                    <a href="home.html">
+                        <img src="./img/logo_blanco.png" alt="Logo" width="150">
+                    </a>
+                </div>
+            </div>
+            <div class="w-100">
+                <!-- Preheader -->
+                <div class="preheader px-2">
+                    <div class="preheader-menu">
+                        <a href="home.html">La compañía</a>
+                        <a href="trabaja-con-nosotros.html">Trabaja con nosotros</a>
+                        <a href="clientes.html">Clientes</a>
+                        <a href="news.html">News</a>
+                        <a href="contacto.html" class="btn btn-outline-blanco fw-semibold mr-3">CONTACTO</a>
+                    </div>
+                    <button class="preheader-toggler">☰</button>
+                </div>
+                <!-- Navegación principal -->
+                <nav class="navbar px-2">
+                    <div class="menu">
+                        <a href="sectores.html">SECTORES</a>
+                        <a href="software-a-medida.html">SOFTWARE A MEDIDA</a>
+                        <a href="inteligencia-artificial.html">INTELIGENCIA ARTIFICIAL</a>
+                        <a href="ciberseguridad.html">CIBERSEGURIDAD</a>
+                        <a href="legaltech.html">LEGAL TECH</a>
+                        <a href="agencia-digital.html">AGENCIA DIGITAL</a>
+                        <a href="outsourcing.html">OUTSOURCING</a>
+                        <a href="soluciones.html">SOLUCIONES</a>
+                    </div>
+                    <button class="navbar-toggler">☰</button>
+                </nav>
             </div>
         </div>
-        <!-- Navegación principal -->
-        <nav class="navbar">
-            <div id="navbar-logo">
-                <a href="home.html">
-                    <img src="./img/logo_blanco.png" alt="Logo">
-                </a>
-            </div>
-            <button class="toggler navbar-toggler">☰</button>
-            <div class="overlay menu" style="display: none;">
-                <a href="sectores.html">SECTORES</a>
-                <a href="software-a-medida.html">SOFTWARE A MEDIDA</a>
-                <a href="inteligencia-artificial.html">INTELIGENCIA ARTIFICIAL</a>
-                <a href="ciberseguridad.html">CIBERSEGURIDAD</a>
-                <a href="legaltech.html">LEGAL TECH</a>
-                <a href="agencia-digital.html">AGENCIA DIGITAL</a>
-                <a href="outsourcing.html">OUTSOURCING</a>
-                <a href="soluciones.html">SOLUCIONES</a>
-            </div>
-        </nav>
     </header>
 
     <main class="container-fluid p-0">
@@ -140,14 +146,7 @@
         </div>
         <!--------------------  CONTENIDO PAGINA ---------------------------->
 
-
-
-
-
-
-
-
-
+        <div style="height: 30vh;"></div>
 
         <!--------------------------------------------------------------------->
     </main>
