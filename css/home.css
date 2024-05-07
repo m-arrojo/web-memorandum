@@ -133,6 +133,7 @@ hr.it-360 {
   background: var(--bg-secondary),
     url(../img/fondo-video.jpg) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .video-intro img {
