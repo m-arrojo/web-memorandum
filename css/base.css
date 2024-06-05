@@ -21,8 +21,7 @@
     rgba(var(--bs-primary-rgb), 0.5)
   );
   --bg-secondary: linear-gradient(
-    rgba(var(--bs-secondary-rgb), 0.3),
-    rgba(var(--bs-secondary-rgb), 0.3)
+    #2e2e3a4d,#2e2e3a4d
   );
   --bg-light: linear-gradient(
     rgba(var(--bs-light-rgb), 0.7),
@@ -388,7 +387,7 @@ img {
 
 .bg-glass {
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.75);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.2px);
