@@ -20,7 +20,6 @@
   cursor: pointer;
 }
 
-
 .banner-sections .row > .col-md-4:nth-child(1) {
   background: var(--bg-secondary),
     url(../img/banner-soluciones.jpg) no-repeat center center;
@@ -46,7 +45,8 @@
 }
 
 .banner-sections .row > .col-md-4:nth-child(3) {
-  background: var(--bg-secondary), url(../img/banner-ia.jpg) no-repeat center center;
+  background: var(--bg-secondary),
+    url(../img/banner-ia.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -126,6 +126,15 @@ hr.it-360 {
     background-size: contain;
   }
 }
+
+/* DIV kit consulting */
+.kit-consulting {
+  min-height: 400px;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 450" opacity="0.66"><defs><filter id="bbblurry-filter" x="-100%" y="-100%" width="400%" height="400%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="75" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"></feGaussianBlur></filter></defs><g filter="url(%23bbblurry-filter)"><ellipse rx="233" ry="107" cx="523.202630101875" cy="383.46900506993165" fill="hsla(191, 55%, 47%, 1.00)"></ellipse><ellipse rx="233" ry="107" cx="200.43222878196025" cy="413.07265125621444" fill="hsla(357, 79%, 56%, 1.00)"></ellipse></g></svg>') center left no-repeat;
+  background-size: cover;
+}
+
+
 
 /* Banner video Youtube ----------------------------------------------------*/
 .video-intro {
