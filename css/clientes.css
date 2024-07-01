@@ -1,0 +1,118 @@
+.div-cliente {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.background-container {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.background-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--bs-secondary-rgb), 0.8),
+    transparent 50%,
+    rgba(var(--bs-secondary-rgb), 0.8)
+  );
+  opacity: 0;
+  transition: opacity 0.4s;
+  pointer-events: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.fondo {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.logo-c {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  margin: 0;
+  -webkit-user-drag: none;
+  user-select: none;
+  transition: transform 0.3s;
+  z-index: 1;
+}
+
+.div-cliente:hover .logo-c {
+  transform: translate(-50%, -70%) scale(1.07);
+}
+
+.div-cliente:hover .logo-c.ministerio {
+  transform: translate(-90%, -50%) scale(2);
+}
+
+.background-container:hover::before {
+  opacity: 1;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 20px 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 100%;
+  margin: 0 40px;
+  -webkit-user-drag: none;
+  user-select: none;
+}
